@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="image/favicon3.png"/>
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.25/css/uikit.min.css" />
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+
+    <script
+    src="https://code.jquery.com/jquery-2.2.4.js"
+    integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+    crossorigin="anonymous"></script>
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+
+
+ 
+    <title>JosephTSmith</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="uk-navbar-container uk-navbar-transparent" id="navbar" uk-navbar>
+            <div class="uk-navbar-left" id="logo">
+                    <img src="image/logo.png">
+            </div>
+     
+        <div class="uk-navbar-right ">
+            <a href="" class="uk-icon-button uk-box-shadow-large" id="offcanvas"  uk-toggle="target: #offcanvas-flip" uk-icon="menu"></a>
+        </div>
+        
+    </nav>
+     <!-- background -->
+    <div>
+        <div class="uk-background-cover uk-height-large uk-panel uk-flex uk-flex-center uk-flex-middle" id="header_bg">
+            <div class="uk-child-width-expand uk-grid-match" uk-grid>
+                <div  uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+                    <div class=" uk-card uk-card-body" id="head_words">
+                        <h1 id="myH1">Front-End Developer</h1>
+                        <h5 id="small_text">Specialized in building and maitaining small and medium size business site.</h5>
+                        <a class="uk-button uk-button-primary uk-border-rounded uk-box-shadow-xlarge" href="#" id="resume_link">Get my resume</a>
+                    </div>
+                </div>
+                <div  uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+                    <div class="uk-card uk-card-body">
+                        <img class="uk-border-circle uk-box-shadow-xlarge uk-animation-reverse uk-transform-origin-top-right" uk-scrollspy="cls: uk-animation-kenburns; repeat: true" src="image/lion.jpg" width="300" height="300" alt="Border circle" id="head_img">                         
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- offcanvas -->
+    <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
+        <div class="uk-offcanvas-bar">
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+            <br>
+            <br>
+            <div class="uk-text-center">   
+            <img src="image/logo.png">
+            </div>
+            <br>
+            <br>
+            <ul class="uk-list uk-list-divider">
+               <li><a href="#navbar" class="uk-icon-link uk-margin-small-right" uk-icon="home"></a><a href="#navbar">Home</a uk-scroll></li>
+                <li><a href="#the_second_cont" class="uk-icon-link uk-margin-small-right" uk-icon="user"></a><a href="#the_second_cont">About Me</a uk-scroll></li>
+                <li><a href="#third_container" class="uk-icon-link uk-margin-small-right" uk-icon="code"></a><a href="#Skills_container">My Skills</a uk-scroll></li>
+                <li><a href="#the_fourth_cont" class="uk-icon-link uk-margin-small-right" uk-icon="folder"></a><a href="#portfolio_cont">Portfolio</a uk-scroll></li>
+                <li><a href="#the_footer" class="uk-icon-link uk-margin-small-right" uk-icon="receiver"></a><a href="#the_footer">Contact Me</a uk-scroll></li>
+            </ul>
+        </div>
+    </div>
+    <!-- this is the second container -->
+    <div class="uk-container" id="the_second_cont">
+        <div class="uk-flex-middle"  id="second_container" uk-grid>
+           <div class="uk-width-1-3@m uk-flex-first" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+                <img src="image/myImage.jpg" class="uk-border-rounded" alt="Image" id="second_cont_img">
+            </div>
+            <div class="uk-width-2-3@m" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+                <h2 class="uk-text-left" id="myname">Joseph T. Smith</h2>
+                <p>Driven web developer who welcomes challenging projects and enjoys working with all sorts of personalities. Experienced in web development and Digital Marketing as well as responsive design patterns. Looking for a developer position upon graduation.</p>
+                <a href="https://www.facebook.com/tmanjsmith" target="_blank" class="uk-button uk-button-primary uk-border-rounded uk-box-shadow-xlarge" id="second_btn">Know More</a>
+            </div>
+        </div>
+    </div>
+    <!-- SKILL SET -->
+    <div class="uk-container skillset" id="Skills_container">
+        <h3 class="uk-text-center" style="padding-bottom: 50px;" id="h_font_family">MY SKILLS-SET</h3>
+
+        <div class="uk-child-width-expand@s uk-text-center"  uk-grid uk-scrollspy="cls: uk-animation-slide-top-small; target: > div > .uk-card; delay: 300; repeat: true" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body skills_border">
+                            <img src="image/code.png">
+                            <hr>
+                            <h4>Web Development</h4>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body skills_border">
+                            <img src="image/digitalMM.png">
+                            <hr>
+                            <h4>Digital Marketing</h4>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body skills_border">
+                            <img src="image/contentMM.png">
+                            <hr>
+                            <h4>Content Managment</h4>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body skills_border">
+                            <img src="image/SEO.png">
+                            <hr>
+                            <h4>SEO</h4>
+                        </div>
+                    </div>
+                </div>
+    </div> 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- My Portfolio Sider -->
+    <div class="uk-container" uk-slider=" autoplay: true autoplay-interval: 700 pause-on-hover: true" id="portfolio_cont">
+            <h3 class="uk-text-center" style="padding-bottom: 50px;" id="h_font_family">MY PORTFOLIO</h3>
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+        
+                <ul class="uk-slider-items uk-child-width-1-3@s uk-grid">
+                    <li>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <a href="http://rockyinspires.5gbfree.com/" target="_blank"><img src="image/website1.png" alt=""></a>
+                            </div>
+                            <div class="uk-card-body">
+                                <a href="http://rockyinspires.5gbfree.com/" target="_blank"><h3 class="uk-card-title">RockyInspire</h3></a>
+                                <p>A website that is about inspiring you through poems and emotional writing.</p>
+                                <a href="http://rockyinspires.5gbfree.com/" target="_blank" class="uk-button uk-button-primary uk-border-rounded uk-box-shadow-large" id="project_btn">View Website</a>
+                                
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <a href="http://allinonectgu.atwebpages.com/index.html" target="_blank"><img src="image/website2.png" alt=""></a>
+                            </div>
+                            <div class="uk-card-body">
+                                <a href="http://allinonectgu.atwebpages.com/index.html" target="_blank"><h3 class="uk-card-title">All-In-one</h3></a>
+                                <p>A music band and culture exchange website that was built for a music group based in Yichang, China.</p>
+                                <a href="http://allinonectgu.atwebpages.com/index.html" target="_blank" class="uk-button uk-button-primary uk-border-rounded uk-box-shadow-large" id="project_btn">View Website</a>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <a href="http://speedtyper.atwebpages.com" target="_blank"><img src="image/game.png" alt=""></a>
+                            </div>
+                            <div class="uk-card-body">
+                                <a href="http://speedtyper.atwebpages.com" target="_blank"><h3 class="uk-card-title">SpeedTyper</h3></a>
+                                <p>SpeedTyper is a web-based (can only play in the browser) typing game that can help you build up your typing speed.</p>
+                                <a href="http://speedtyper.atwebpages.com" target="_blank" class="uk-button uk-button-primary uk-border-rounded uk-box-shadow-large" id="project_btn">Play game</a>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <a href="http://paynesvillenetball.weebly.com/" target="_blank"><img src="image/gudimg.png" alt=""></a>
+                            </div>
+                            <div class="uk-card-body">
+                                <a href="http://paynesvillenetball.weebly.com/" target="_blank"><h3 class="uk-card-title">Paynesville City Netball</h3></a>
+                                <p>A Netball Team website that was built with CMS(Weebly) to showcase the plays talent to the world.</p>
+                                <a href="http://paynesvillenetball.weebly.com/" target="_blank" class="uk-button uk-button-primary uk-border-rounded uk-box-shadow-large" id="project_btn">View Website</a>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <a href="https://github.com/Teddyrid123/Job-Portal-Project" target="_blank"><img src="image/newproject.png" alt=""></a>
+                            </div>
+                            <div class="uk-card-body">
+                                <a href="https://github.com/Teddyrid123/Job-Portal-Project" target="_blank"><h3 class="uk-card-title">HIBAKU</h3></a> 
+                                <p>A Job-Portal that I am currently developing, however, you can check the code on my Github page.</p>
+                                <a href="https://github.com/Teddyrid123/Job-Portal-Project" target="_blank" class="uk-button uk-button-primary uk-border-rounded uk-box-shadow-large" id="project_btn">View Source Code</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <a href=" https://josephtsmith.000webhostapp.com" target="_blank"><img src="image/website3.png" alt=""></a>
+                            </div>
+                            <div class="uk-card-body">
+                                <a href="https://josephtsmith.000webhostapp.com" target="_blank"><h3 class="uk-card-title">Personal website 2018</h3></a> 
+                                <p>This is my personal website that was built in 2018 to showcase some of my personal development.</p>
+                                <a href="https://josephtsmith.000webhostapp.com" target="_blank" class="uk-button uk-button-primary uk-border-rounded uk-box-shadow-large" id="project_btn">View Website</a>
+
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+            </div>
+            <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+        </div>
+<!-- footer -->
+<div class="footer uk-background-secondary" id="the_footer">
+        <div class="uk-grid-medium uk-child-width-expand@s uk-text-center myIcons" uk-grid>
+                <div>
+                        <h3 class="uk-text-center" style="color: white; padding-top: 50px">Contact Me</h3>
+                        <div class="uk-grid-collapse uk-padding uk-flex uk-flex-center  uk-text-center" uk-grid>
+                            
+                                <div>
+                                    <div class="uk-background-secondary uk-padding">
+                                        <a href="" class="uk-icon-button uk-margin-small-right" id="twitter" uk-icon="twitter"></a>
+                                    </div>
+                                </div>
+                                <div>
+                                        <div class="uk-background-secondary uk-padding">
+                                        <a href="" class="uk-icon-button  uk-margin-small-right" id="facebook" uk-icon="facebook"></a> 
+                                        </div>
+                                </div>
+                                <div>
+                                        <div class="uk-background-secondary uk-padding">
+                                    <a href="" class="uk-icon-button  uk-margin-small-right" id="instagram" uk-icon="linkedin"></a>
+                                            
+                                        </div>
+                                </div>
+                                <div>
+                                    <div class="uk-background-secondary uk-padding uk-light">
+                                    <a href="" class="uk-icon-button  uk-margin-small-right" id="github" uk-icon="github"></a> 
+
+                                    </div>
+                                </div>
+                        </div>
+
+                </div>
+        </div>
+</div>
+<nav class="uk-navbar-container uk-navbar-transparent uk-background-secondary" id="navbar_botton" uk-navbar>
+    <div class="uk-navbar-center">
+        <!-- botton P -->
+        <p id="botton_p">Build with <a href="" uk-icon="heart"></a> by Joseph T. Smith</p>
+    </div>
+    <div class="uk-navbar-right" ">
+        <a href="" class="uk-icon-button uk-box-shadow-large" id="navbar_botton" href="#target" uk-icon="arrow-up"  uk-scroll></a>
+    </div>
+</nav>
+ <!-- UIkit JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.25/js/uikit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.25/js/uikit-icons.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
